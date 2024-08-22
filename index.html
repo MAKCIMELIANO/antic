@@ -4,111 +4,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varta:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
     <title>antic</title>
 </head>
 
 <body>
     <!-- header -->
-    <header class="header">
-        <div class="header__logo">antic</div>
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Products</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Rooms</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Services</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Inspirations</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- hero -->
-        <section class="hero">
-            <div class="hero__container">
-                <h2 class="hero__title">HOME DESIGN</h2>
-                <h1 class="hero__subtitle">
-                    Elegance for Interiors & Exteriors
-                </h1>
-                <p class="hero__description">We provide everyone with modern, trendy, quality furniture</p>
-            </div>
-        </section>
-        <!-- find your room -->
-        <section class="room-finder">
-            <div class="room-finder__container">
-                <h2 class="room-finder__title">Find your room</h2>
-                <p class="room-finder__description">Dining room, bedroom, bathroom or office. Find what you need</p>
-                <div class="room-finder__slider">
-                    <div class="room-finder__slide">
-                        <img src="image1.jpg" alt="Image 1" class="room-finder__image">
-                        <div class="room-finder__image-description">Description for Image 1</div>
-                    </div>
-                    <div class="room-finder__slide">
-                        <img src="image2.jpg" alt="Image 2" class="room-finder__image">
-                        <div class="room-finder__image-description">Description for Image 2</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- side to design -->
-        <section class="side-to-design">
-            <div class="side-to-design__container">
-                <h2 class="side-to-design__title">We stay by your side to design your projects</h2>
-                <a href="#" class="side-to-design__link">Find out more</a>
-                <ul class="side-to-design__list">
-                    <li class="side-to-design__item">
-                        <h3 class="side-to-design__item-title">Project 1</h3>
-                        <p class="side-to-design__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.</p>
-                    </li>
-                    <li class="side-to-design__item">
-                        <h3 class="side-to-design__item-title">Project 2</h3>
-                        <p class="side-to-design__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.</p>
-                    </li>
-                    <li class="side-to-design__item">
-                        <h3 class="side-to-design__item-title">Project 3</h3>
-                        <p class="side-to-design__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.</p>
-                    </li>
-                    <li class="side-to-design__item">
-                        <h3 class="side-to-design__item-title">Project 4</h3>
-                        <p class="side-to-design__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.</p>
-                    </li>
+    <div class="wrapper container">
+        <header class="header">
+            <div class="header__logo">antic</div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Products</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Rooms</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Services</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Inspirations</a></li>
                 </ul>
-            </div>
-        </section>
-        <!-- Be aware of the latest trends -->
-        <section class="trends">
-            <div class="trends__container">
-                <h2 class="trends__title">Be aware of the latest trends</h2>
-                <p class="trends__description">Stay informed of new trends, but also of our various offers</p>
-                <a href="#" class="trends__link">Learn more</a>
-                <form class="trends__form">
-                    <input type="email" class="trends__input" placeholder="email@address.com">
-                    <button type="submit" class="trends__button">subscribe</button>
-                </form>
-                <div class="trends__carousel">
-                    <div class="trends__slide">
-                        <img src="image1.jpg" alt="Image 1" class="trends__image">
-                    </div>
-                    <div class="trends__slide">
-                        <img src="image2.jpg" alt="Image 2" class="trends__image">
-                    </div>
-                    <div class="trends__slide">
-                        <img src="image3.jpg" alt="Image 3" class="trends__image">
-                    </div>
+            </nav>
+        </header>
+        <main>
+            <!-- hero -->
+            <section class="hero">
+                <div class="hero__container">
+                    <h2 class="hero__title">HOME DESIGN</h2>
+                    <h1 class="hero__subtitle">
+                        Elegance for Interiors & Exteriors
+                    </h1>
+                    <p class="hero__description">We provide everyone with modern, trendy, quality furniture</p>
                 </div>
-                <h3 class="trends__subtitle">Inspirations</h3>
-                <p class="trends__text">Our experts are keen to stay on top of trends in order to offer you new
-                    inspirations for
-                    your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and
-                    we want
-                    to share that with you.</p>
-            </div>
-        </section>
+            </section>
+    </div>
+
+    <!-- find your room -->
+    <section class="room-finder container">
+        <h2 class="room-finder__title">Find your room</h2>
+        <p class="room-finder__description">Dining room, bedroom, bathroom or office. Find what you need</p>
+        <div class="room-finder__slider">
+            <p class="room-finder__slider-text">News arrivals</p>
+            <h3 class="room-finder__slider-title">Bedroom</h3>
+        </div>
+        <a href="#" class="room-finder__link">Next</a>
+        <span class="room-finder__arrow">01 &#47; 05</span>
+
+    </section>
+    <!-- side to design -->
+    <section class="side-to-design container">
+        <h2 class="side-to-design__title">We stay by your side to design your projects</h2>
+        <a href="#" class="side-to-design__link">Find out more</a>
+        <ul class="side-to-design__list">
+            <li class="side-to-design__item">
+                <h3 class="side-to-design__item-title">Our Advices</h3>
+                <p class="side-to-design__item-description">What if you took advantage of this rather special period to
+                    rethink your interior? You spend more time at home so you
+                    might as well feel good there.</p>
+            </li>
+            <li class="side-to-design__item">
+                <h3 class="side-to-design__item-title">Click and Collect</h3>
+                <p class="side-to-design__item-description">Adapted and contactless. Free from € 200 of purchases in
+                    stores offering the service.</p>
+            </li>
+            <li class="side-to-design__item">
+                <h3 class="side-to-design__item-title">Conception Service</h3>
+                <p class="side-to-design__item-description">Personalized service with an expert advisor for your
+                    interior and exterior decoration or layout projects.</p>
+            </li>
+            <li class="side-to-design__item">
+                <h3 class="side-to-design__item-title">Installation Service</h3>
+                <p class="side-to-design__item-description">Our furniture packaged in flat packs are designed for easy
+                    assembly. But you can call on our partner.</p>
+            </li>
+        </ul>
+    </section>
+    <!-- Be aware of the latest trends -->
+    <section class="trends container">
+        <h2 class="trends__title">Be aware of the latest trends</h2>
+        <p class="trends__description">Stay informed of new trends, but also of our various offers</p>
+        <a href="#" class="trends__link">Learn more</a>
+        <form class="trends__form">
+            <input type="email" class="trends__input" placeholder="email@address.com">
+            <button type="submit" class="trends__button">Subscribe</button>
+        </form>
+        <h3 class="trends__subtitle">Inspirations</h3>
+        <p class="trends__text">Our experts are keen to stay on top of trends in order to offer you new
+            inspirations for
+            your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and
+            we want
+            to share that with you.</p>
+        <ul class="trends__list">
+            <li class="trends__item">
+                <img src="./images/chair.jpg" alt="chair">
+                <h4 class="trends__item-title">Chair</h4>
+                </img>
+            </li>
+            <li class="trends__item">
+                <img class="trends__img" src="./images/cooked.jpg" alt="cooked">
+                <h4 class="trends__item-title">Cooked</h4>
+                </img>
+            </li>
+            <li class="trends__item">
+                <img src="./images/living-room.jpg" alt="living-room">
+                <h4 class="trends__item-title">Living room</h4>
+                </img>
+            </li>
+            <li class="trends__item">
+                <img src="./images/tables.jpg" alt="tables">
+                <h4 class="trends__item-title">Tables</h4>
+                </img>
+            </li>
+        </ul>
+    </section>
     </main>
     <!-- footer -->
-    <footer class="footer">
+    <footer class="footer container">
         <div class="footer__logo">
             antic
         </div>
@@ -148,24 +163,24 @@
             </li>
         </ul>
         <h2 class="footer__title">We respect our planet</h2>
-        <img src="image4.png" alt="Image 4" class="footer__image">
+        <img src="./images/footer-image.jpg" alt="footer-image" class="footer__image">
         <p class="footer__text">We&#x2019;re taking positive steps to reduce our impact on the planet. For us, that
             means
             retailing
             responsibly.</p>
-        <a href="#" class="footer__link footer__link--more">Read more</a>
+        <a href="#" class=" footer__link--more">Learn more</a>
         <ul class="footer__social">
-            <li><a href="#" class="footer__link footer__link--social">facebook</a></li>
-            <li><a href="#" class="footer__link footer__link--social">twitter</a></li>
-            <li><a href="#" class="footer__link footer__link--social">lankedin</a></li>
-            <li><a href="#" class="footer__link footer__link--social">instagram</a></li>
+            <li><a href="#" class=" footer__link--social">facebook</a></li>
+            <li><a href="#" class=" footer__link--social">twitter</a></li>
+            <li><a href="#" class=" footer__link--social">lankedin</a></li>
+            <li><a href="#" class=" footer__link--social">instagram</a></li>
+        </ul>
+        <ul class="footer__legal">
+            <li><a href="" class=" footer__link--legal">Privacy policy</a></li>
+            <li><a href="" class=" footer__link--legal">Term of service</a></li>
+            <li><a href="" class=" footer__link--legal">Language</a></li>
         </ul>
         <p class="footer__copyright">&copy; 2020 Antic. All rights reserved.</p>
-        <ul class="footer__legal">
-            <li><a href="" class="footer__link footer__link--legal">Privacy policy</a></li>
-            <li><a href="" class="footer__link footer__link--legal">Term of service</a></li>
-            <li><a href="" class="footer__link footer__link--legal">Language</a></li>
-        </ul>
     </footer>
 </body>
 
