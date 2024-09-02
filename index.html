@@ -18,9 +18,9 @@
 
 <body>
     <!-- header -->
-    <div class="wrapper container">
-        <header class="header">
-            <div class="header__logo">antic</div>
+    <div class="wrapper ">
+        <header class="header container">
+            <span class="header__logo">antic</span>
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item"><a href="#" class="header__nav-link">Products</a></li>
@@ -32,72 +32,97 @@
         </header>
         <main>
             <!-- hero -->
-            <section class="hero">
-                <div class="hero__container">
-                    <h2 class="hero__title">HOME DESIGN</h2>
-                    <h1 class="hero__subtitle">
-                        Elegance for Interiors & Exteriors
-                    </h1>
-                    <p class="hero__description">We provide everyone with modern, trendy, quality furniture</p>
-                </div>
+            <section class="hero container">
+                <h2 class="hero__title">HOME DESIGN</h2>
+                <h1 class="hero__subtitle">
+                    Elegance for Interiors & Exteriors
+                </h1>
+                <p class="hero__description">We provide everyone with modern, trendy, quality furniture</p>
             </section>
     </div>
 
     <!-- find your room -->
-    <section class="room-finder container">
-        <h2 class="room-finder__title">Find your room</h2>
-        <p class="room-finder__description">Dining room, bedroom, bathroom or office. Find what you need</p>
-        <div class="room-finder__slider">
-            <p class="room-finder__slider-text">News arrivals</p>
-            <h3 class="room-finder__slider-title">Bedroom</h3>
-        </div>
-        <a href="#" class="room-finder__link">Next</a>
-        <span class="room-finder__arrow">01 &#47; 05</span>
+    <div class="room-finder__wrapper">
+        <section class="room-finder container">
+            <h2 class="room-finder__title">Find your room</h2>
+            <div class="room-finder__slider">
+                <p class="room-finder__description">Dining room, bedroom, bathroom or office. Find what you need</p>
+                <div class="room-finder__slider-one">
+                    <p class="room-finder__slider-text">News arrivals</p>
+                    <h3 class="room-finder__slider-title">Bedroom</h3>
+                </div>
+                <div class="room-finder__slider-two">
+                    <p class="room-finder__slider-text">News arrivals</p>
+                    <h3 class="room-finder__slider-title">Living <br> room</h3>
+                </div>
+            </div>
+            <a href="#" class="room-finder__link">Next</a>
+            <span class="room-finder__arrow">01 &#47; 05</span>
 
-    </section>
+        </section>
+    </div>
     <!-- side to design -->
-    <section class="side-to-design container">
-        <h2 class="side-to-design__title">We stay by your side to design your projects</h2>
-        <a href="#" class="side-to-design__link">Find out more</a>
-        <ul class="side-to-design__list">
-            <li class="side-to-design__item">
-                <h3 class="side-to-design__item-title">Our Advices</h3>
-                <p class="side-to-design__item-description">What if you took advantage of this rather special period to
-                    rethink your interior? You spend more time at home so you
-                    might as well feel good there.</p>
-            </li>
-            <li class="side-to-design__item">
-                <h3 class="side-to-design__item-title">Click and Collect</h3>
-                <p class="side-to-design__item-description">Adapted and contactless. Free from € 200 of purchases in
-                    stores offering the service.</p>
-            </li>
-            <li class="side-to-design__item">
-                <h3 class="side-to-design__item-title">Conception Service</h3>
-                <p class="side-to-design__item-description">Personalized service with an expert advisor for your
-                    interior and exterior decoration or layout projects.</p>
-            </li>
-            <li class="side-to-design__item">
-                <h3 class="side-to-design__item-title">Installation Service</h3>
-                <p class="side-to-design__item-description">Our furniture packaged in flat packs are designed for easy
-                    assembly. But you can call on our partner.</p>
-            </li>
-        </ul>
-    </section>
+    <div class="side-to-design__wrapper">
+        <section class="side-to-design container">
+            <div>
+                <h2 class="side-to-design__title">We stay by your side to design your projects</h2>
+                <a href="#" class="side-to-design__link">Find out more</a>
+            </div>
+            <ul class="side-to-design__list">
+                <li class="side-to-design__item">
+                    <h3 class="side-to-design__item-title">Our Advices</h3>
+                    <p class="side-to-design__item-description">What if you took advantage of this rather special period
+                        to
+                        rethink your interior? You spend more time at home so you
+                        might as well feel good there.</p>
+                </li>
+                <li class="side-to-design__item">
+                    <h3 class="side-to-design__item-title">Click and Collect</h3>
+                    <p class="side-to-design__item-description">Adapted and contactless. Free from € 200 of purchases in
+                        stores offering the service.</p>
+                </li>
+                <li class="side-to-design__item">
+                    <h3 class="side-to-design__item-title">Conception Service</h3>
+                    <p class="side-to-design__item-description">Personalized service with an expert advisor for your
+                        interior and exterior decoration or layout projects.</p>
+                </li>
+                <li class="side-to-design__item">
+                    <h3 class="side-to-design__item-title">Installation Service</h3>
+                    <p class="side-to-design__item-description">Our furniture packaged in flat packs are designed for
+                        easy
+                        assembly. But you can call on our partner.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
     <!-- Be aware of the latest trends -->
     <section class="trends container">
-        <h2 class="trends__title">Be aware of the latest trends</h2>
-        <p class="trends__description">Stay informed of new trends, but also of our various offers</p>
-        <a href="#" class="trends__link">Learn more</a>
-        <form class="trends__form">
-            <input type="email" class="trends__input" placeholder="email@address.com">
-            <button type="submit" class="trends__button">Subscribe</button>
-        </form>
-        <h3 class="trends__subtitle">Inspirations</h3>
-        <p class="trends__text">Our experts are keen to stay on top of trends in order to offer you new
-            inspirations for
-            your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and
-            we want
-            to share that with you.</p>
+        <div class="trends__wrapper">
+            <div>
+                <h2 class="trends__title">Be aware of the latest trends</h2>
+                <p class="trends__description">Stay informed of new trends, but also of our various offers</p>
+                <a href="#" class="trends__link">Learn more</a>
+            </div>
+            <div class="trends__form-wrapper">
+                <form class="trends__form">
+                    <input type="email" class="trends__input" placeholder="email@address.com">
+                    <button type="submit" class="trends__button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="trends__desctop-slider">
+            <div class="trends__desctop-slider-one"></div>
+            <div class="trends__desctop-slider-two"></div>
+            <div class="trends__desctop-slider-three"></div>
+        </div>
+        <div class="trends__wrapper-inspirations">
+            <h3 class="trends__subtitle">Inspirations</h3>
+            <p class="trends__text">Our experts are keen to stay on top of trends in order to offer you new
+                inspirations for
+                your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and
+                we want
+                to share that with you.</p>
+        </div>
         <ul class="trends__list">
             <li class="trends__item">
                 <img src="./images/chair.jpg" alt="chair">
@@ -123,64 +148,71 @@
     </section>
     </main>
     <!-- footer -->
-    <footer class="footer container">
-        <div class="footer__logo">
-            antic
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <span class="footer__logo">
+                antic
+            </span>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <h3 class="footer__title">Products</h3>
+                    <a href="#" class="footer__link">Furniture</a>
+                    <a href="#" class="footer__link">Decoration</a>
+                    <a href="#" class="footer__link">Storage</a>
+                    <a href="#" class="footer__link">Baby and child</a>
+                    <a href="#" class="footer__link">Connected home</a>
+                </li>
+                <li class="footer__item">
+                    <h3 class="footer__title">Rooms</h3>
+                    <a href="#" class="footer__link">Living room</a>
+                    <a href="#" class="footer__link">Dining room</a>
+                    <a href="#" class="footer__link">Cooked</a>
+                    <a href="#" class="footer__link">Bedroom</a>
+                    <a href="#" class="footer__link">Bathroom</a>
+                    <a href="#" class="footer__link">Office</a>
+                    <a href="#" class="footer__link">Laundry</a>
+                    <a href="#" class="footer__link">Garage</a>
+                </li>
+                <li class="footer__item">
+                    <h3 class="footer__title">Services</h3>
+                    <a href="#" class="footer__link">Click and collect</a>
+                    <a href="#" class="footer__link">Conception</a>
+                    <a href="#" class="footer__link">Installation</a>
+                    <a href="#" class="footer__link">Advices</a>
+                    <a href="#" class="footer__link">Gift card</a>
+                </li>
+                <li class="footer__item">
+                    <h3 class="footer__title">About</h3>
+                    <a href="#" class="footer__link">Our story</a>
+                    <a href="#" class="footer__link">Our stores</a>
+                    <a href="#" class="footer__link">Our partners</a>
+                </li>
+            </ul>
+            <div class="footer__we-respect">
+                <h2 class=" footer__title">We respect our planet</h2>
+                <img src="./images/footer-image.jpg" alt="footer-image" class="footer__image">
+                <p class="footer__text">We&#x2019;re taking positive steps to reduce our impact on the planet. For us,
+                    that
+                    means
+                    retailing
+                    responsibly.</p>
+                <a href="#" class=" footer__link--more">Learn more</a>
+            </div>
         </div>
-        <ul class="footer__list">
-            <li class="footer__item">
-                <h3 class="footer__title">Products</h3>
-                <a href="#" class="footer__link">Furniture</a>
-                <a href="#" class="footer__link">Decoration</a>
-                <a href="#" class="footer__link">Storage</a>
-                <a href="#" class="footer__link">Baby and child</a>
-                <a href="#" class="footer__link">Connected home</a>
-            </li>
-            <li class="footer__item">
-                <h3 class="footer__title">Rooms</h3>
-                <a href="#" class="footer__link">Living room</a>
-                <a href="#" class="footer__link">Dining room</a>
-                <a href="#" class="footer__link">Cooked</a>
-                <a href="#" class="footer__link">Bedroom</a>
-                <a href="#" class="footer__link">Bathroom</a>
-                <a href="#" class="footer__link">Office</a>
-                <a href="#" class="footer__link">Laundry</a>
-                <a href="#" class="footer__link">Garage</a>
-            </li>
-            <li class="footer__item">
-                <h3 class="footer__title">Services</h3>
-                <a href="#" class="footer__link">Click and collect</a>
-                <a href="#" class="footer__link">Conception</a>
-                <a href="#" class="footer__link">Installation</a>
-                <a href="#" class="footer__link">Advices</a>
-                <a href="#" class="footer__link">Gift card</a>
-            </li>
-            <li class="footer__item">
-                <h3 class="footer__title">About</h3>
-                <a href="#" class="footer__link">Our story</a>
-                <a href="#" class="footer__link">Our stores</a>
-                <a href="#" class="footer__link">Our partners</a>
-            </li>
-        </ul>
-        <h2 class="footer__title">We respect our planet</h2>
-        <img src="./images/footer-image.jpg" alt="footer-image" class="footer__image">
-        <p class="footer__text">We&#x2019;re taking positive steps to reduce our impact on the planet. For us, that
-            means
-            retailing
-            responsibly.</p>
-        <a href="#" class=" footer__link--more">Learn more</a>
-        <ul class="footer__social">
+        <ul class="footer__social container">
             <li><a href="#" class=" footer__link--social">facebook</a></li>
             <li><a href="#" class=" footer__link--social">twitter</a></li>
             <li><a href="#" class=" footer__link--social">lankedin</a></li>
             <li><a href="#" class=" footer__link--social">instagram</a></li>
         </ul>
-        <ul class="footer__legal">
-            <li><a href="" class=" footer__link--legal">Privacy policy</a></li>
-            <li><a href="" class=" footer__link--legal">Term of service</a></li>
-            <li><a href="" class=" footer__link--legal">Language</a></li>
-        </ul>
-        <p class="footer__copyright">&copy; 2020 Antic. All rights reserved.</p>
+        <div class="footer__wrapper-legal container">
+            <ul class="footer__legal">
+                <li><a href="" class=" footer__link--legal">Privacy policy</a></li>
+                <li><a href="" class=" footer__link--legal">Term of service</a></li>
+                <li><a href="" class=" footer__link--legal">Language</a></li>
+            </ul>
+            <p class="footer__copyright">&copy; 2020 Antic. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
